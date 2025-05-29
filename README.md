@@ -1,13 +1,13 @@
 # Project-Security-Logs-Analysis
 
-Overview:
+ Overview:
 
-Goals & Objectives:
+ Goals & Objectives:
 
-Setup Instructions:
+ Setup Instructions:
 
-Sources: 
+ Sources: 
 
-Conclusion/Takeaways:
+# Conclusion/Takeaways:
 
 
