@@ -17,7 +17,7 @@
 
 Wireshark – The primary tool for capturing and analyzing network traffic from your sample PCAP file.
 
-Your Computer (Windows/Linux/macOS) – No need for virtual machines or complex setups yet.
+Computer (Windows/Linux/macOS) – No need for virtual machines or complex setups yet.
 
 Sample PCAP File – Download a recorded network traffic file for analysis instead of live packet capture
 
