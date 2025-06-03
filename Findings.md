@@ -22,5 +22,17 @@ This PCAP contains network traffic from a web server targeted by a probe/scan fr
 
 - The internal web server had an IP of 10.12.25.101, while the external IP appeared as 128.199.64.235, simulated to resemble a Digital Ocean-hosted server.
 
-- While the web server identity was sanitized, the scan behavior from 139.199.184.166 was legitimate and provides a real-world example of how attackers probe online services. 
+- While the web server identity was sanitized, the scan behavior from 139.199.184.166 was legitimate and provides a real-world example of how attackers probe online services.
+
+ 4. Identifying Non-Standard Traffic
+
+- Since port 80 is typically used for HTTP traffic, filtering with !(tcp.port eq 80) reveals connections on unconventional ports (8080 & 8983).
+
+- This suggests an entity was checking for other running services, which could indicate reconnaissance or exploitation attempts.
+
+5. Common Use of Ports 8080 & 8983
+
+- Port 8080 is often used for proxy servers, alternative web services, or API endpoints. Attackers may probe this port to find accessible admin panels or weak services.
+
+- Port 8983 is commonly associated with Apache Solr, an enterprise search platform that could be vulnerable to exploits if misconfigured.
 
