@@ -28,11 +28,10 @@ This PCAP contains network traffic from a web server targeted by a probe/scan fr
 
 - Since port 80 is typically used for HTTP traffic, filtering with !(tcp.port eq 80) reveals connections on unconventional ports (8080 & 8983).
 
-- This suggests an entity was checking for other running services, which could indicate reconnaissance or exploitation attempts.
-
-5. Common Use of Ports 8080 & 8983
-
-- Port 8080 is often used for proxy servers, alternative web services, or API endpoints. Attackers may probe this port to find accessible admin panels or weak services.
+- - Port 8080 is often used for proxy servers, alternative web services, or API endpoints. Attackers may probe this port to find accessible admin panels or weak services.
 
 - Port 8983 is commonly associated with Apache Solr, an enterprise search platform that could be vulnerable to exploits if misconfigured.
+
+- This suggests an entity was checking for other running services, which could indicate reconnaissance or exploitation attempts.
+
 
