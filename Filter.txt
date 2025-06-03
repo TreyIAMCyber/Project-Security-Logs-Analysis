@@ -9,7 +9,7 @@ ip.dst == x.x.x.x           # Show packets where x.x.x.x is the destination
 http.request                # Show all HTTP requests  
 http.host contains "example.com"  # Filter packets related to a specific domain  
 tcp.port == 80              # Display only HTTP traffic  
-!(tcp.port eq 80)            # Filtered for attempted connections to TCP ports 8080 and 8983
+!(tcp.port eq 80)           # Filtered for attempted connections to TCP ports 8080 and 8983
 
 # HTTPS (TLS) Filtering
 tls.handshake.type == 1     # Show TLS client hello packets  
