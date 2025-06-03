@@ -1,1 +1,30 @@
+# Wireshark Log Analysis - Common Filters Used  
+
+# Basic IP Filtering
+ip.addr == x.x.x.x          # Show all packets involving a specific IP  
+ip.src == x.x.x.x           # Show packets where x.x.x.x is the source  
+ip.dst == x.x.x.x           # Show packets where x.x.x.x is the destination  
+
+# HTTP Traffic Filtering
+http.request                # Show all HTTP requests  
+http.host contains "example.com"  # Filter packets related to a specific domain  
+tcp.port == 80              # Display only HTTP traffic  
+
+# HTTPS (TLS) Filtering
+tls.handshake.type == 1     # Show TLS client hello packets  
+tcp.port == 443             # Display only HTTPS traffic  
+
+# DNS Traffic
+dns                         # Show all DNS queries and responses  
+dns.qry.name contains "example.com"  # Show DNS queries related to a specific domain  
+
+# Suspicious Activity Indicators
+tcp.flags.syn == 1          # Show TCP SYN packets (potential scans)  
+icmp                        # Display ICMP packets (ping, traceroute behavior)  
+udp.port == 53              # Show DNS traffic via UDP  
+ftp                         # Display FTP traffic (can indicate insecure file transfers)  
+
+# Miscellaneous & Debugging
+frame contains "keyword"    # Search packets that contain a specific string  
+tcp.stream eq X             # Isolate packets in a specific TCP conversation  
 
