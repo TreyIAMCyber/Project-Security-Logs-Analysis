@@ -21,6 +21,8 @@ Your Computer (Windows/Linux/macOS) – No need for virtual machines or complex 
 
 Sample PCAP File – Download a recorded network traffic file for analysis instead of live packet capture
 
+This project uses sample PCAP files from Malware Traffic Analysis, which provide pre-captured network traffic for analysis
+
 # 🎣Conclusion/Takeaways:
 
 Basic Log Analysis with Wireshark
