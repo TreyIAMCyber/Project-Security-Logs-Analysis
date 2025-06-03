@@ -25,8 +25,6 @@ This project uses sample PCAP files from Malware Traffic Analysis, which provide
 
 # 🎣Conclusion/Takeaways:
 
-Basic Log Analysis with Wireshark
-
 This project was all about getting hands-on with network traffic analysis—no crazy setups, just me, Wireshark, and a sample PCAP file. The goal was simple: get familiar with packet structures, apply filters, and start thinking like an analyst without drowning in overly complex tools.
 
 What I Found Interesting
