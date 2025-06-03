@@ -1,9 +1,9 @@
-# Basic Log Analysis with Wireshark
+# Basic Log Analysis with Wireshark 🦈🔬
 
  Overview: This homelab is designed to introduce myself to network traffic analysis in a simple, manageable way. I'll use Wireshark to examine a sample PCAP file, apply basic 
  filters, and identify key patterns in network logs. This foundational approach will help to build confidence before expanding into more complex cybersecurity workflows.
  
-# Key Objectives:
+# 🔑Key Objectives:
 
 1. Familiarization with Wireshark – Learn the UI, explore captured packets, and understand basic network protocols.
 
@@ -13,7 +13,7 @@
 
 4. Document Findings – Write a brief summary of observations, practicing structured analysis for future security investigations.
 
-# Tech Stack/Tools Used: 
+# 🛠️Tech Stack/Tools Used: 
 
 Wireshark – The primary tool for capturing and analyzing network traffic from your sample PCAP file.
 
@@ -21,7 +21,7 @@ Your Computer (Windows/Linux/macOS) – No need for virtual machines or complex 
 
 Sample PCAP File – Download a recorded network traffic file for analysis instead of live packet capture
 
-# Conclusion/Takeaways:
+# 🎣Conclusion/Takeaways:
 
 Basic Log Analysis with Wireshark
 
@@ -35,7 +35,7 @@ Filtering is Everything – Instead of sifting through a massive traffic dump, W
 
 Patterns Matter – Not every packet is interesting on its own, but noticing patterns in communication (who's talking to whom, what services are used) makes a difference.
 
-# Why This Matters for SOC Work
+# 🏆Why This Matters for SOC Work
 
 Filtering logs efficiently = reducing noise and focusing on security-relevant data.
 
