@@ -34,4 +34,19 @@ This PCAP contains network traffic from a web server targeted by a probe/scan fr
 
 - This suggests an entity was checking for other running services, which could indicate reconnaissance or exploitation attempts.
 
+# Questions & Curiosity: 
+1. What services were targeted beyond standard HTTP (port 80)?
+
+2. Do any of these ports belong to administrative interfaces, APIs, or vulnerable services?
+
+3. Did the scanner follow any recognizable attack patterns?
+
+4. Did it repeat connection attempts with variations (suggesting brute-force or enumeration techniques)?
+
+5. Was there an attempt to disguise the scanning behavior?
+
+6. Did the scanning IP use different protocols or try to blend into normal web traffic?
+
+7. Was traffic frequency consistent or did it suddenly spike?
+
 
